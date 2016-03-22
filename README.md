@@ -35,4 +35,4 @@ This portion should take about 4 hours to seed and re-seed. I think I'll also ne
 Part two:
 Implementing this feature should take another four hours. I think I'll spend quite a bit of time spinning my wheels and conferring with classmates.
 
-**I was able to set up a search box using a partial, but didn't get it to pull up information.**
+**I was able to set up a search box using a partial, but didn't get it to pull up information. This took about an hour or so to complete.**
