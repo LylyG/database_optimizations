@@ -9,21 +9,21 @@ The goal here is to take an existing database and make it run more efficiently.
 5. Now let's talk about the "memory" numbers given on the page. What impact have your changes had on memory usage? If you reload a page again and again (with no code changes in between reloads), does memory used stay the same? Have you ever been able to make memory used go down? **Memory went down drastically in three stages: first after adding indices, then associations, and finally, the most change was seen after modifying the controller.**
 
 ### Logs
-1. Initial seeding: 1854.8 s
+1. Initial seeding: 1854.8 s<br>
 Localhost load time: 2712 s when the server timed out.<br>
 
-2. Seeding after adding 3 indices: 2249s
-Localhost load time: 21.8s
-Memory: 527MB
+2. Seeding after adding 3 indices: 2249s<br>
+Localhost load time: 21.8s<br>
+Memory: 527MB<br>
 Number of Hits: 49,387<br>
 
-3. Re-seeding was not needed. Localhost load time: 14.7s
+3. Re-seeding was not needed. Localhost load time: 14.7s<br>
 Memory: 473MB<br>
 
-4. Re-seeding was not needed.
-Modified the reports controller.
-Localhost load time: 0.08s!!
-Memory: 69MB   
+4. Re-seeding was not needed.<br>
+Modified the reports controller.<br>
+Localhost load time: 0.08s!!<br>
+Memory: 69MB<br>   
 
 ## Relection
 
@@ -34,3 +34,5 @@ This portion should take about 4 hours to seed and re-seed. I think I'll also ne
 
 Part two:
 Implementing this feature should take another four hours. I think I'll spend quite a bit of time spinning my wheels and conferring with classmates.
+
+**I was able to set up a search box using a partial, but didn't get it to pull up information.**
